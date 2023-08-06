@@ -1,0 +1,34 @@
+
+Praca domowa_1:
+Napisz serwis SchoolService, którego zadaniem będzie dodawanie i usuwanie studentów do szkoły.
+Podczas tworzenia obiektu typu SchoolService masz przekazać w konstruktorze tylko jeden parametr – ilość miejsc w szkole;
+SchoolService ma posiadać dwie metody publiczne: addStudent() oraz deleteLastAddedStudent();
+Pierwsza z wymienionych metod dodaje konkretnego studenta na listę szkoły, druga natomiast służy tylko temu, żeby usunąć z listy najnowszego studenta.
+Podczas dodawania lub usuwania studenta ma się wyświetlać w konsoli że dodałeś lub usunąłeś studenta (mają się wyświetlić również jego dane).
+Kiedy lista zostanie zapełniona ma się wyświetlić komunikat, że lista jest już pełna i nie da się dodać nikogo nowego.
+Kiedy będziesz próbował usunąć studenta z pustej listy ma się wyświetlić komunikat, że lista jest już pusta.
+Przetestuj ten serwis w klasie SchoolServiceRunner.
+
+
+Różnica między metodą statyczną a metodą instancji w javie polega na tym,
+że metoda statyczna jest dostępna bezpośrednio przez nazwę klasy,
+a metoda instancji jest dostępna tylko przez obiekt tej klasy.
+Metoda statyczna nie ma dostępu do składowych instancji klasy,
+natomiast metoda instancji ma dostęp do wszystkich składowych instancji klasy.
+
+
+
+Praca domowa_2:
+Stwórz magazyn na samochody:
+StorageService - klasa, która będzie przetrzymywała samochody,
+ma posiadać metodę dodającą konkretne auto oraz usuwającą ostatnio dodane auto.
+Tworząc obiekt StorageService masz podawać tylko jeden parametr - pojemność magazynu;
+
+
+Klasa Samochód - ma posiadać pola: producent, model, kolor i rok produkcji;
+Założenia dla metody dodającej auta: auto nie może być starsze niż 2010 rok,
+oraz nie może być w kolorze białym, żeby mogło zostać dodane do magazynu.
+Założenia dla metody kasującej - ma usuwać tylko ostatnio dodane auto.
+Podczas wykonywania się metod ma się wyświetlić jakie auto dodałeś/usunąłeś, a w przypadku gdy dodawanie zostanie przerwane przez
+niespełnienie kryteriów dodania to ma się wyświetlić, które kryterium nie pasowało.
+Przetestuj ten serwis w klasie StorageServiceRunner.

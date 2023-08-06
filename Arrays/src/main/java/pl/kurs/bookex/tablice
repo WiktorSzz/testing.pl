@@ -1,0 +1,6 @@
+Tablica jest kolekcją zmiennych tego samego typu, do których
+odwołujemy się za pomocą wspólnej nazwy. W javie tablice mogą
+mieć jeden bądź więcej wymiarów. Tablic używamy do grupowania
+powiązanych ze soba zmiennych.
+
+typ nazwa-tablicy = new typ[rozmiar]
